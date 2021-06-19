@@ -1,0 +1,12 @@
+wyświetlanie info o kamerze +
+podział na pliki +
+stworzenie kamery jako klasy +
+wszystko wykorzystuje punkty +
+chodzenie wsad zależne od kierunku kamery +
+dodawanie obiektów z perspektywy strony +
+lepsze wyświetlanie informacji na stronie +
+
+naprawić wyświetlanie dzika
+wrzucić na gita
+
+rendering ścian

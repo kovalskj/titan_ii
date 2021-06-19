@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>3D Render</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="grid-container">
+            <div class="canvas-display">
+                <canvas id="canvas"></canvas>
+            </div>
+            <div class="grid-item">
+                <p id="cursor-position"></p>
+                <ul id="camera-info"></ul>
+            </div>
+            <div class="grid-item" id="addition-panel">
+                <input id="x-input" placeholder="x">
+                <input id="y-input" placeholder="y">
+                <input id="z-input" placeholder="z"><br>
+                <button id="buttonCube">cube</button>
+                <button id="buttonBoar">boar</button>
+            </div>
+            <div class="grid-item">
+                <ul id="objectsList"></ul>
+            </div>
+        </div>
+
+        <script src="point.js"></script>
+        <script src="camera.js"></script>
+        <script src="boar.js"></script>
+        <script src="cube.js"></script>
+        <script src="renderer.js"></script>
+    </body>
+
+</html>

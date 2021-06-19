@@ -1,0 +1,76 @@
+body {
+    background-color: #3d3d3d;
+    color: #00aa00;
+    font-family: 'consolas';
+    margin: 0;
+}
+
+canvas {
+    border:1px solid #00aa00;
+    background-color: #2d2d2d;
+}
+
+p {
+    color: #00aa00;
+}
+
+p::selection {
+    color: #00aa00;
+    background-color: #2d2d2d00;
+}
+
+
+ul {
+    list-style-type: square;
+    display: inline-block;
+}
+
+#camera-info {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    margin: 1em;
+    grid-gap: 1em;
+}
+
+.grid-item {
+    grid-column: 2 / span 1;
+    margin-bottom: 0;
+    padding: 3%;
+    background-color: #4d4d4d
+}
+
+.canvas-display {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 3;
+}
+
+input {
+    background-color: #888888;
+    width: 10%;
+    margin: 5%;
+    padding: 1em;
+    border: none;
+}
+
+button {
+    background-color: #559944;
+    border: none;
+
+    width: 40%;
+    padding: 1em;
+}
+
+button:hover{
+  background-color: #50cc33;
+}
+
+#addition-panel {
+  display: block;
+}
